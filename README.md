@@ -1,0 +1,2 @@
+# SPOTIFY-CLONE-PROJECT-BY-GANGISETTY-RAJ-CHARAN
+This is the clone to famous website SPOTIFY
