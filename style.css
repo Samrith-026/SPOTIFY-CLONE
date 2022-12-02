@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    display: block;
+}
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 30px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul li {
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.brand img {
+    width: 30px;
+    height: 30px;
+    margin-left: -33px;
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.content p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    margin: 20px;
+    position: absolute;
+    bottom: 8px;
+    left: 40px;
+    top: 130px;
+    color: white;
+}
+
+.content h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    margin: 30px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    top: 180px;
+    color: white;
+}
+
+.content button {
+    color: black;
+    position: relative;
+    top: -239px;
+    left: 91px;
+    border: red;
+}
+
+.content button a{
+    text-decoration: none;
+    color:black;
+}
+
+.content button:hover {
+    background-color: red;
+    color: white;
+}
+.box p,
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-size: 20px;
+    margin: 20px;
+    position: absolute;
+    bottom: 8px;
+    left: 40px;
+    top: 508px;
+    color: white;
+
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+
+/* Mobiles */
+@media all and (mix-width:767px) {
+    body {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 50px;
+        margin: -4px;
+        position: absolute;
+        bottom: -20px;
+        left: 104px;
+        top: 101px;
+        color: white;
+    }
+
+    .content p {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 50px;
+        margin: 20px;
+        position: absolute;
+        bottom: -10px;
+        left: -4px;
+        top: 26px;
+        color: white;
+    }
+
+    .content h1 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 39px;
+        margin: 30px;
+        position: absolute;
+        bottom: 8px;
+        left: -14px;
+        top: 101px;
+        color: white;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        height: 30px;
+        background-color: black;
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
+    .content button {
+        color: black;
+        position: relative;
+        top: -120px;
+        left: 91px;
+        border: red;
+    }
+}
+
+/* Desktop */
+@media all and (min-width:768px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 60px;
+        margin: 30px;
+        position: absolute;
+        bottom: -28px;
+        left: 69px;
+        top: 183px;
+        color: white;
+    }
+
+    .content button {
+        color: black;
+        position: relative;
+        top: -101px;
+        left: 205px;
+        border: red;
+    }
+
+    .content p {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 50px;
+        margin: 20px;
+        position: absolute;
+        bottom: 8px;
+        left: 44px;
+        top: 57px;
+        color: white;
+    }
+
+    .content h1 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 44px;
+        margin: 30px;
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        top: 134px;
+        color: white;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        height: 32px;
+        background-color: black;
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }
+
+    @media all and (min-width:480px) {
+        .content button {
+            color: black;
+            position: relative;
+            top: -96px;
+            left: 91px;
+            border: red;
+        }
+    }
+}
+
